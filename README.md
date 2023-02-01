@@ -6,8 +6,11 @@ You can also see all the data collected on the frontend.
 ## Technos
 
 Python (aiohttp)
-Vue.Js
+
 Postgresql
+
+Vue.Js
+
 
 ## Screenshots
 
