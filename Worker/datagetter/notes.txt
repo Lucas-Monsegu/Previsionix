@@ -1,0 +1,2 @@
+db.OzIrisDelayHourly.aggregate( [ {$group: { _id: {year: {$year: "$_id"}, month: {$month: "$_id"}, day: { $dayOfMonth: "$_id"}}, delay: {$avg: "$delay"}} } ])
+{ "_id" : { "year" : 2019, "month" : 4, "day" : 11 }, "delay" : 15 }
